@@ -105,4 +105,4 @@ readFile()
       });
   });
 
-module.exports = exports = {readFile, createBuffer};
+module.exports = exports = {readFile, createBuffer, modifyData, writeHTMLFile, writeFile};
