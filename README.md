@@ -5,7 +5,7 @@
 ### Author: Michael
 
 ### Links and Resources
-* [submission PR]()
+* [submission PR](https://github.com/michaelchapman-401-advanced-javascript/Lab-04/pull/1)
 * [travis](https://travis-ci.org/michaelchapman-401-advanced-javascript/Lab-04)
 
 ### Modules
