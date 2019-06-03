@@ -75,7 +75,7 @@ describe('File Reader Module', () => {
     let stuff = 'askdas';
   
     return fileReader.readFile(file)
-      .then(data => {
+      .then(() => {
         fileReader.modifyData(stuff)
           .then()
           .catch(err => expect(err).toBeDefined());
@@ -103,7 +103,7 @@ describe('File Reader Module', () => {
   
     return fileReader.readFile(file)
       .then(data => {
-        fileReader.modifyData(stuff)
+        fileReader.modifyData(stuff);
         fileReader.writeHTMLFile(data)
           .then()
           .catch(err => expect(err).toBeDefined());
